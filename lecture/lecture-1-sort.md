@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Fundamentals: array.sort()
 
 ---
@@ -5,7 +9,7 @@
 ## .sort() - without parameters
 
 ```js
-const characters = ["Rick", "Morty", "Summer", "Beth", "Jerry"];
+const characters = ['Rick', 'Morty', 'Summer', 'Beth', 'Jerry'];
 
 characters.sort();
 
@@ -57,7 +61,7 @@ const numbers = [123, 13, 12, 6, 76, 0, 9];
 
 numbers.sort((a, b) => {
   // Write code here!
-});
+})
 
 // outcome?
 ```

@@ -14,10 +14,10 @@ const favoriteDessertsGroupA = {
   john: "ice-cream",
   beth: "cheese cake",
   summer: "ice-cream",
-  morty: "apple pie",
+  mike: "apple pie",
   rick: "brownies",
   andrew: "cheese cake",
-  jerry: "rhubard pie",
+  jerry: "rhubarb pie",
   "jean-luc": "cheese cake",
   tiffany: "waffles",
   melissa: "profiteroles",
@@ -28,15 +28,15 @@ const favoriteDessertsGroupB = {
   betty: "deep-fried mars bar",
   colin: "gummy bears",
   damien: "child tears",
-  ellicia: "panda express",
-  fertrude: "gummy bears",
-  glinda: "pie",
-  hethel: "not applicable",
-  irsula: "rum cake",
-  judas: "revenge (served cold)",
-  khloe: "pie",
+  alicia: "panda express",
+  gertrude: "gummy bears",
+  belinda: "pie",
+  russ: "not applicable",
+  ursula: "rum cake",
+  lisa: "revenge (served cold)",
+  diana: "pie",
   lyndon: "easter eggs",
-  minda: "dessert",
+  lynda: "dessert",
 };
 
 // Write a function that accepts an object (like above) and returns a new object with the data sorted
@@ -48,16 +48,16 @@ const favoriteDessertsGroupB = {
 
 // Expected output for groupByValue(favoriteDessertsGroupB) is
 // {
-//   'pie': [ 'alice', 'glinda', 'khloe' ],
+//   'pie': [ 'alice', 'belinda', 'diana' ],
 //   'deep-fried mars bar': [ 'betty' ],
-//   'gummy bears': [ 'colin', 'fertrude' ],
+//   'gummy bears': [ 'colin', 'gertrude' ],
 //   'child tears': [ 'damien' ],
-//   'panda express': [ 'ellicia' ],
-//   'not applicable': [ 'hethel' ],
-//   'rum cake': [ 'irsula' ],
-//   'revenge (served cold)': [ 'judas' ],
+//   'panda express': [ 'alicia' ],
+//   'not applicable': [ 'russ' ],
+//   'rum cake': [ 'ursula' ],
+//   'revenge (served cold)': [ 'lisa' ],
 //   'easter eggs': [ 'lyndon' ],
-//   'dessert': [ 'minda' ]
+//   'dessert': [ 'lynda' ]
 // }
 
 const groupByValue = (obj) => {

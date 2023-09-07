@@ -15,13 +15,6 @@ const inputData = {
   motherName: "Joyce Byers",
   motherAge: 35,
   motherStatus: "determined",
-  motherSuperpower1: null,
-  motherSuperpower2: null,
-  bestFriendName: "Mike Wheeler",
-  bestFriendAge: 9,
-  bestFriendStatus: "energetic",
-  bestFriendSuperpower1: null,
-  bestFriendSuperpower2: null,
   girlfriendName: "Eleven",
   girlfriendAge: 9,
   girlfriendStatus: "tenacious",
@@ -71,7 +64,7 @@ const inputData = {
 // - Instead of `superpower1` and `superpower2`, an array is used
 // - Instead of having a "flat" structure for relationships, a new `relationships`
 //   array is added, which holds objects for each relationship.
-// - Each relationship has a `type`, like mother/best-friend/girlfriend
+// - Each relationship has a `type`, like mother/girlfriend
 // - Each relationship also has an array of super powers, same logic as the main
 //   `superpowers` array
 

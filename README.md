@@ -2,16 +2,14 @@
 
 ## 🦊 Pre-lecture
 
-⏲️ _Estimated time required: 15 minutes._
-
-- Read the document(s) in the `__pre-lecture` folder.
+There is no pre-lecture for this workshop.
 
 ---
 
 ## 🦉 Lecture
 
-- [lecture-1-fun-sort](__lecture/lecture-1-fun-sort.md)
-- There will be a group Tic Tac Toe demo, you can find the files in the `__lecture/activity` folder.
+- [Lecture 1 | Sort](./lecture/lecture-1-sort.md)
+- There will be a group Tic Tac Toe demo, you can find the files in the `lecture/activity` folder.
 
 ---
 
@@ -23,11 +21,11 @@ yarn install
 
 ---
 
-## ⚡ Exercises 😋
+## ⚡ Exercises
 
 Build fun web page that renders GrubHub's top ten food for [2018](https://www.insider.com/most-popular-foods-grubhub-2018-12) and [2019](https://www.thepacker.com/article/report-grubhubs-2019-year-food)!
 
-![exercise 1 complete](./__lecture/assets/ex-1_3.gif)
+![exercise 1 complete](./lecture/assets/ex-1_3.gif)
 
 The lists of foods are provided in `assets/topTenList.js`.
 
@@ -68,7 +66,7 @@ _It has already been added to the HTML file, so it will be available for use in 
 
 1. The year in the header changes depending on which year is selected.
 
-![exercise 1 header](./__lecture/assets/ex-1_2.gif)
+![exercise 1 header](./lecture/assets/ex-1_2.gif)
 
 2. To view each top ten item, the user has to hover over the numbers in the white area.
 3. If the user's mouse is not over one of the numbers, the bottom section should say "hover over a #!"
